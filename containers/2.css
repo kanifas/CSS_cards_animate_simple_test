@@ -1,0 +1,13 @@
+* {margin:0}
+body {
+    height: 100vh;
+    background: skyblue;
+}
+
+.brif-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 calc(50% - 590px);
+    background: url(./breaf.jpeg) no-repeat center top;
+    height: 100vh;
+  }

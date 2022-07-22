@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<div class="container">
+		<div class="fly-grid">
+			<div class="fly-grid__item card">
+				<img src="./1.jpg" alt="">
+				<h4>Header</h4>
+				<p>Все верстальщики в своих проектах используют div.container для центрирования контента и этот способ имеет некоторые особенности, от которых можно избавиться.</p>
+			</div>
+			<div class="fly-grid__item card">
+				<img src="./2.jpg" alt="">
+				<h4>Header</h4>
+				<p>Прочитав эту статью, Вы узнаете про способ, который позволит полностью отказаться от контейнера. Я попытаюсь рассказать о плюсах и минусах использования контейнера и альтернативного способа центрирования контента средствами только лишь css.</p>
+			</div>
+			<div class="fly-grid__item card">
+				<img src="./3.jpg" alt="">
+				<h4>Header</h4>
+				<p>Он занимает всю ширину экрана, например, до 1170px и когда экран становится больше, то играет роль обёртки и фиксирует контент в центре страницы, не давая ему «разбежаться» в стороны.</p>
+			</div>
+			<div class="fly-grid__item card">
+				<img src="./4.jpg" alt="">
+				<h4>Header</h4>
+				<p>Самый очевидный минус контейнера — создание лишних блоков в разметке, которое ведет к увеличению цепочки вложенностей элементов и понижению читаемости кода.</p>
+			</div>
+		</div>
+
+		<form action="">
+			<textarea name="" id="" cols="30" rows="10"></textarea>
+			<button>Save</button>
+			<script>
+				document.querySelector('button').addEventListener("click", (e) => {
+					e.preventDefault();
+					//e.stopPropagation();
+					e.target.classList.toggle('is-loading');
+				});
+			</script>
+		</form>
+
+		<div class="menu">
+			<div class="item">One one</div>
+			<div class="item">Two two</div>
+			<div class="item">Three three</div>
+			<div class="item">Four four</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var qqq = 10;
+	</script>
+	<script type="text/javascript">
+		let www = 20;
+	</script>
+	<script type="text/javascript">
+		console.log(qqq);
+		console.log(www);
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
